@@ -89,13 +89,41 @@ The current live implementation uses eight official-first sources:
 4. "It is mock-first for speed, but the provider boundary keeps the ingestion layer replaceable when real feeds or scraping are added."
 5. "I also added a lightweight run-and-review workflow, so the app now has a real `mock / live / published` lifecycle instead of only direct rendering."
 
-### Screenshots
+### Product walkthrough
 
-![Dashboard screenshot](./public/screenshots/dashboard-demo.png)
+The screenshots below are not static mockups. They are generated from the same pipeline and mode system used by the app at runtime, so each screen reflects how the intelligence workflow is exposed to users.
 
-![Compare screenshot](./public/screenshots/compare-demo.png)
+#### 1. Dashboard overview
 
-![Weekly brief screenshot](./public/screenshots/weekly-brief-demo.png)
+![Dashboard overview](./public/screenshots/dashboard-overview.png)
+
+This is the market-level entry point of the product. Instead of a chatbot interface, the homepage presents ranked AI product movement, a weekly pulse, tracked-product coverage, and the current operating mode (`mock`, `live`, or `published`) in one strategy-facing surface.
+
+The top summary is intentionally product-oriented: it helps a reader understand what moved this week and why it matters before they drill into detailed events. This keeps the app focused on competitive intelligence rather than generic conversational AI.
+
+#### 2. Intelligence views
+
+![Dashboard intelligence views](./public/screenshots/dashboard-intelligence-views.png)
+
+This section shows how raw updates are turned into structured intelligence. Category trends, distribution, recent events, and the category signal table are all derived after normalization, classification, ranking, and summarization.
+
+The recent events list is not a simple chronological feed. Each card represents a ranked signal chosen by recency, importance, and category weighting, so the UI exposes the output of the intelligence pipeline rather than hand-written summary copy.
+
+#### 3. Compare workflow
+
+![Compare workflow](./public/screenshots/compare-workflow.png)
+
+The compare view reframes the same ranked dataset into a decision-ready benchmark for 2 to 3 products. Instead of reading isolated changelog entries, a product or strategy lead can compare cadence, dominant themes, momentum, and directional focus in one screen.
+
+This page demonstrates that the underlying dataset is reusable across multiple analytical views. The dashboard answers "what moved in the market," while compare answers "how these products differ strategically." That separation is useful in interviews because it shows the system is not just rendering one summary card - it can support benchmarking, category comparison, and strategic positioning from the same intelligence layer.
+
+#### 4. Research run agent
+
+![Research run workflow](./public/screenshots/run-diff-workflow.png)
+
+This screen shows the `Research Run Agent` layer. Each run executes official-source ingestion, records source health, generates a draft brief, and compares the result with the previous run.
+
+The run diff panel makes repeated runs more meaningful by explaining whether new ranked signals surfaced, which products changed, and whether the latest run simply fetched the same official updates again. This review-and-publish workflow is what makes the project more agent-like than a static dashboard.
 
 ## Tech
 
