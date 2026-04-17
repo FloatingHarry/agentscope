@@ -1,0 +1,1406 @@
+{
+  "runId": "run-2026-04-17T15-04-23-566Z",
+  "createdAt": "2026-04-17T15:04:23.566Z",
+  "updatedAt": "2026-04-17T15:04:30.976Z",
+  "status": "published",
+  "products": [
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "company": "OpenAI",
+      "segment": "AI assistant suite",
+      "positioning": "Leaning into orchestrated workflows for knowledge workers.",
+      "pricingModel": "Freemium + Team + Enterprise",
+      "description": "A broad AI workspace that increasingly blends search, memory, and agentic execution.",
+      "recentBias": [
+        "agent",
+        "workflow",
+        "memory"
+      ],
+      "accent": "#10a39a"
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "company": "Anthropic",
+      "segment": "Research and writing assistant",
+      "positioning": "Strong on safe research workflows and structured team usage.",
+      "pricingModel": "Pro + Team + Enterprise",
+      "description": "A deliberate product focused on high-trust research, writing, and coding collaboration.",
+      "recentBias": [
+        "search",
+        "workflow",
+        "memory"
+      ],
+      "accent": "#5d83ff"
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "company": "Perplexity",
+      "segment": "Answer engine",
+      "positioning": "Search-led intelligence product with deeper analyst workflows.",
+      "pricingModel": "Free + Pro + Enterprise",
+      "description": "A fast-moving research product expanding from search into ongoing intelligence workflows.",
+      "recentBias": [
+        "search",
+        "memory",
+        "workflow"
+      ],
+      "accent": "#10817a"
+    },
+    {
+      "slug": "notion-ai",
+      "name": "Notion AI",
+      "company": "Notion",
+      "segment": "Workspace AI",
+      "positioning": "Embedding AI into existing project and knowledge operations.",
+      "pricingModel": "Workspace add-on + Enterprise",
+      "description": "A workflow-centric AI layer for project docs, meeting follow-through, and team knowledge.",
+      "recentBias": [
+        "workflow",
+        "memory",
+        "collaboration"
+      ],
+      "accent": "#202736"
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "company": "Anysphere",
+      "segment": "AI coding environment",
+      "positioning": "Developer-first product that is moving from coding assistant to agentic IDE.",
+      "pricingModel": "Pro + Teams + Enterprise",
+      "description": "An AI-native coding workspace with strong momentum in background tasks and codebase memory.",
+      "recentBias": [
+        "developer-tools",
+        "agent",
+        "memory"
+      ],
+      "accent": "#2f7df6"
+    },
+    {
+      "slug": "devin",
+      "name": "Devin",
+      "company": "Cognition",
+      "segment": "Autonomous software agent",
+      "positioning": "Agent-led delivery product focused on engineering throughput.",
+      "pricingModel": "Usage-based + Enterprise",
+      "description": "An engineering agent product emphasizing task execution, sprint coverage, and reviewer handoffs.",
+      "recentBias": [
+        "agent",
+        "workflow",
+        "developer-tools"
+      ],
+      "accent": "#c96f36"
+    },
+    {
+      "slug": "gemini",
+      "name": "Gemini",
+      "company": "Google",
+      "segment": "Consumer and workspace AI",
+      "positioning": "Cross-surface product stitching together search, agent actions, and workspaces.",
+      "pricingModel": "Free + Advanced + Workspace",
+      "description": "A broad AI surface combining Google ecosystem reach with increasingly actionable workflows.",
+      "recentBias": [
+        "workflow",
+        "search",
+        "agent"
+      ],
+      "accent": "#4479ff"
+    },
+    {
+      "slug": "figma-ai",
+      "name": "Figma AI",
+      "company": "Figma",
+      "segment": "Design workflow AI",
+      "positioning": "Design-system intelligence with stronger collaboration and critique loops.",
+      "pricingModel": "Seat-based + Org plans",
+      "description": "A design-focused AI product pushing toward team critique, automation, and design-to-code workflows.",
+      "recentBias": [
+        "workflow",
+        "collaboration",
+        "agent"
+      ],
+      "accent": "#b45d38"
+    }
+  ],
+  "updates": [
+    {
+      "id": "gemini-2026-04-13-prepare-for-the-neet-ug-with-practice-tests-in-gemini",
+      "product": "Gemini",
+      "productSlug": "gemini",
+      "title": "Prepare for the NEET UG with practice tests in Gemini",
+      "body": "We recently launched full-length, no-cost practice tests in Gemini, starting with the SAT and JEE Main . Today, we’re expanding practice tests to support the NEET UG . We have grounded practice tests in rigorously vetted content from leading education companies like Physics Wallah and Careers360, to build a best in class experience for learners coming to Gemini. This helps ensure that you’re not just practicing — you’re preparing with material that more closely resembles what you’ll see on test day. To try it out, just tell Gemini “I want to take a NEET mock exam.” Note: This feature is currently available in English only. Getting started Admins: The Gemini app and related in-app tools are controlled by the Generative AI settings in the Workspace Admin console. Practice tests in Gemini are subject to these existing controls. Visit the Help Center for more information on turning the Gemini app on or off . End users: End users of all ages who have access to the Gemini app will receive access to practice tests automatically. To get started, tell Gemini which practice test you want to take. Rollout pace Rapid Release and Scheduled Release domains: Available now Availability Available to all Google Workspace customers, Workspace Individual subscribers, and users with personal Google accounts who are signed in to the Gemini app Resources Google Workspace Admin Help: Turn the Gemini app on or off Keyword Blog: Prep for the SAT with practice tests in Gemini Keyword Blog: New AI Tools to Support India’s Next Generation Workspace Updates: Prepare for the SAT with full-length practice tests in Gemini Workspace Updates: Prepare for the JEE Main with practice tests in Gemini",
+      "featureName": "Prepare for the NEET UG with practice tests in Gemini",
+      "category": "search",
+      "changeType": "integration",
+      "importance": 5,
+      "publishedAt": "2026-04-13T15:55:00.000Z",
+      "source": "Google Workspace Updates",
+      "excerpt": "We recently launched full-length, no-cost practice tests in Gemini, starting with the SAT and JEE Main.",
+      "focusTags": [
+        "search",
+        "workflow",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "search move",
+        "integration signal",
+        "Prepare for the NEET UG with practice tests in Gemini"
+      ],
+      "score": 92,
+      "rankReason": [
+        "5/5 importance",
+        "search emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "notion-ai-2026-04-14-schedule-meetings-with-notion-agent",
+      "product": "Notion AI",
+      "productSlug": "notion-ai",
+      "title": "Schedule meetings with Notion Agent",
+      "body": "Notion Agent now shows your calendar to help you find available time with teammates. See a ranked list of choices, compare schedules, and book. All without leaving the chat.",
+      "featureName": "Schedule meetings with Notion Agent",
+      "category": "agent",
+      "changeType": "upgrade",
+      "importance": 5,
+      "publishedAt": "2026-04-14T23:00:00.000Z",
+      "source": "Notion Releases",
+      "excerpt": "Notion Agent now shows your calendar to help you find available time with teammates.",
+      "focusTags": [
+        "agent",
+        "search",
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "upgrade signal",
+        "Schedule meetings with Notion Agent",
+        "team-facing rollout"
+      ],
+      "score": 91,
+      "rankReason": [
+        "5/5 importance",
+        "agent emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "gemini-2026-04-14-gemini-in-google-classroom-is-now-available-in-all-classroom-supported-languages",
+      "product": "Gemini",
+      "productSlug": "gemini",
+      "title": "Gemini in Google Classroom is now available in all Classroom-supported languages",
+      "body": "Last year, we launched Gemini in Google Classroom in English to support educators with planning and creating engaging lessons, and to help students in higher education to study and learn . Starting this week, we’re beginning to expand availability to all Classroom-supported languages in which Gemini is also available . This expansion makes Gemini tools in Classroom increasingly accessible to educators and higher education students whose preferred language is now supported. In the Gemini tab in Classroom, educators can get help creating and adapting resources, based on learning objectives, starting with the following features: Outline a lesson plan Generate a quiz Write an informational text Tackle common misconceptions Translate text More content generation features will become available in these languages in the coming weeks. Educators can also collaborate with Gemini using starter prompts for the Gemini app that help with common tasks like: Brainstorming real world examples Gamifying an activity Generating differentiation strategies Drafting an exemplar and non-exemplar Creating Depth of Knowledge (DOK) questions Higher education students using the Gemini tab can: Learn about a topic: Get personalized and step-by-step explanations with Guided Learning. Take a quiz: Prepare for upcoming exams by testing your knowledge and getting hints and feedback. Make flashcards: Turn class materials into custom flashcards for extra practice. Create a study guide: Make a study guide about a certain topic, or upload class materials for more personalized resources. Getting started Admins: Gemini in Classroom: As an administrator of your organization's Google Accounts, you can control who is allowed to use Gemini in Google Classroom to generate content and resources. Access to Gemini in Google Classroom is ON by default. These capabilities are only available to users who are designated as 18 years of age and over in your institution’s age-based access settings . Visit the Help Center to learn about managing access to Gemini in Classroom and the option to turn the service on or off for users in your Admin console .&nbsp; Gemini app: Educators and students can access Gemini starter prompts in the Gemini tab in Classroom, and they will open in the Gemini app. Users’ ability to access these starter prompts and continue chats in the Gemini app is controlled by the Gemini app setting. Visit the Help Center to learn how to Turn the Gemini app on or off for users . Note: Ensure roles in Classroom are appropriately assigned to users. Learn more about teacher and student roles here . End users: Visit the Help Center to learn more about Gemini in Classroom and feel free to take this course to learn more about generative AI for Educators . When using generated content, you should always review the outputs as AI can make mistakes and refine the output so that it fits your context and local policies. Rollout pace Rapid Release and Scheduled Release domains: Extended rollout (potentially longer than 15 days for feature visibility) starting on April 13, 2026 Availability Education: Education Fundamentals, Standard, and Plus Resources Google Workspace Updates Blog: Gemini in Google Classroom is now available to all Google Workspace for Education editions, with added features Google Workspace Updates Blog: Gemini in Google Classroom is expanding to students in higher education Google Help: Learn about Gemini in Google Classroom Google Help: Google Classroom Supported Languages Google Help: Verify teachers and set permissions Google Workspace Admin Help: Manage access to Gemini in Classroom Google Workspace Admin Help: Control access to Google services by age Google Workspace Admin Help: Turn the Gemini app on or off Google Workspace Admin Help: Select your organization type for Google Workspace for Education",
+      "featureName": "Gemini in Google Classroom is now available in all Classroom-supported languages",
+      "category": "workflow",
+      "changeType": "pricing",
+      "importance": 5,
+      "publishedAt": "2026-04-14T16:23:00.000Z",
+      "source": "Google Workspace Updates",
+      "excerpt": "Last year, we launched Gemini in Google Classroom in English to support educators with planning and creating engaging lessons, and to help students in higher education to study and learn.",
+      "focusTags": [
+        "workflow",
+        "search",
+        "memory"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "pricing signal",
+        "Gemini in Google Classroom is now available in all Classroom-supported languages"
+      ],
+      "score": 91,
+      "rankReason": [
+        "5/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "figma-ai-2026-04-08-introducing-figma-weave-workflow-templates-on-the-figma-community",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "Introducing Figma Weave workflow templates on the Figma Community",
+      "body": "Meet the newest resource type available on the Figma Community: Figma Weave workflows. Figma Weave makes it possible to build repeatable and scalable generative AI workflows on a visual canvas. Now you can explore and duplicate workflows built by the Figma Weave team directly in the Figma Community. Whether you want to generate a new image, turn an image into a video, or scale your brand guidelines into an illustration set – Figma Weave makes it possible.",
+      "featureName": "Introducing Figma Weave workflow templates on the Figma Community",
+      "category": "workflow",
+      "changeType": "workflow",
+      "importance": 5,
+      "publishedAt": "2026-04-08T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "Meet the newest resource type available on the Figma Community: Figma Weave workflows.",
+      "focusTags": [
+        "workflow",
+        "search",
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "workflow signal",
+        "Introducing Figma Weave workflow templates on the Figma Community",
+        "team-facing rollout"
+      ],
+      "score": 88,
+      "rankReason": [
+        "5/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "cursor-2026-04-13-tiled-layout-and-upgraded-voice-input-in-the-agents-window",
+      "product": "Cursor",
+      "productSlug": "cursor",
+      "title": "Tiled Layout and Upgraded Voice Input in the Agents Window",
+      "body": "This release introduces improvements to our Agents Window interface as part of Cursor 3.",
+      "featureName": "Tiled Layout and Upgraded Voice Input in the Agents Window",
+      "category": "agent",
+      "changeType": "launch",
+      "importance": 4,
+      "publishedAt": "2026-04-13T00:00:00.000Z",
+      "source": "Cursor Changelog",
+      "excerpt": "This release introduces improvements to our Agents Window interface as part of Cursor 3.",
+      "focusTags": [
+        "agent"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "launch signal",
+        "Tiled Layout and Upgraded Voice Input in the Agents Window"
+      ],
+      "score": 84,
+      "rankReason": [
+        "4/5 importance",
+        "agent emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "perplexity-2026-03-31-new-integration-n8n",
+      "product": "Perplexity",
+      "productSlug": "perplexity",
+      "title": "New Integration: n8n",
+      "body": "n8n now ships a native Perplexity node with full API coverage — Chat Completions, Agent, Search, and Embeddings — all configurable from the visual canvas. Models load dynamically from the API, so the dropdown always reflects the latest options.",
+      "featureName": "New Integration: n8n",
+      "category": "agent",
+      "changeType": "integration",
+      "importance": 5,
+      "publishedAt": "2026-03-31T23:00:00.000Z",
+      "source": "Perplexity API Docs",
+      "excerpt": "n8n now ships a native Perplexity node with full API coverage — Chat Completions, Agent, Search, and Embeddings — all configurable from the visual canvas.",
+      "focusTags": [
+        "agent",
+        "search",
+        "workflow"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "integration signal",
+        "New Integration: n8n"
+      ],
+      "score": 83,
+      "rankReason": [
+        "5/5 importance",
+        "agent emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "gemini-2026-04-01-form-creation-with-gemini-and-more-now-available-in-more-languages",
+      "product": "Gemini",
+      "productSlug": "gemini",
+      "title": "Form creation with Gemini and more now available in more languages",
+      "body": "Last year, we announced Help me create in Google Forms and then expanded access to the feature to seven more languages. Help me create in Google Forms drafts your questions 3x faster than doing it manually.* Now, this feature is also available to users in 21 more languages including Arabic, Catalan, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Mandarin, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish, Ukrainian and Vietnamese. You can use Help me create to enter a prompt that describes the form you want to create or a prompt that references supporting Docs, Sheets, Slides, or PDFs. Gemini will then generate a draft form, incorporating details from any files you reference, that can be used instantly or further customized. Last year, we also announced Gemini-powered question suggestions . Now, this feature is also available to users in 28 more languages including Spanish, Portuguese, Japanese, Korean, French, Italian, and German. *Note: The time savings for the feature are calculated from a randomized experiment of real users using Google Forms. Getting started Admins: To access Gemini in the side panel of Workspace apps, users need to have smart features and personalization turned on. Admins can turn on default personalization setting for their users in the Admin console. Visit the Help Center to learn more . End users: Visit the Help Center to learn more about creating a form with Gemini in Google Forms . Rollout pace Rapid Release and Scheduled Release domains: Available now Availability Business: Business Standard and Plus Enterprise: Enterprise Standard and Plus Education: Education Plus, Teaching &amp; Learning, Google AI Pro for Education Consumer: Google AI Pro and Ultra Resources Google Help: Supported languages for Google Workspace with Gemini Google Workspace Updates blog: Use Gemini in Google Forms to quickly create a new form Google Workspace Updates blog: Ask Gemini to suggest new questions",
+      "featureName": "Form creation with Gemini and more now available in more languages",
+      "category": "developer-tools",
+      "changeType": "integration",
+      "importance": 5,
+      "publishedAt": "2026-04-01T17:32:00.000Z",
+      "source": "Google Workspace Updates",
+      "excerpt": "Last year, we announced Help me create in Google Forms and then expanded access to the feature to seven more languages.",
+      "focusTags": [
+        "developer-tools",
+        "search",
+        "workflow"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "integration signal",
+        "Form creation with Gemini and more now available in more languages"
+      ],
+      "score": 80,
+      "rankReason": [
+        "5/5 importance",
+        "developer-tools emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "cursor-2026-04-08-bugbot-learned-rules-and-mcp-support",
+      "product": "Cursor",
+      "productSlug": "cursor",
+      "title": "Bugbot Learned Rules and MCP Support",
+      "body": "This release introduces updates to Bugbot including the ability to self-improve in real time, MCP support, improvements to Bugbot Autofix, and the highest resolution rate to date.",
+      "featureName": "Bugbot Learned Rules and MCP Support",
+      "category": "workflow",
+      "changeType": "launch",
+      "importance": 4,
+      "publishedAt": "2026-04-08T00:00:00.000Z",
+      "source": "Cursor Changelog",
+      "excerpt": "This release introduces updates to Bugbot including the ability to self-improve in real time, MCP support, improvements to Bugbot Autofix, and the highest resolution rate to date.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "launch signal",
+        "Bugbot Learned Rules and MCP Support"
+      ],
+      "score": 79,
+      "rankReason": [
+        "4/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "gemini-2026-03-13-gemini-in-chrome-expands-to-more-countries-and-languages-including-canada-new-ze",
+      "product": "Gemini",
+      "productSlug": "gemini",
+      "title": "Gemini in Chrome expands to more countries and languages, including Canada, New Zealand, and India",
+      "body": "Gemini in Chrome is rolling out now to Canada, New Zealand, and India, and we’re adding support for 50+ more languages across these countries and in the United States . You can see the full list of supported languages here . Gemini in Chrome empowers business and education users with AI tools that integrate seamlessly into their daily browsing workflows while maintaining strict data governance . It’s also available to users with personal Google accounts who can access the Gemini app. Gemini in Chrome allows users to: Get answers and insights: Summarize articles, clarify complex concepts, or find specific information based on the context of open tabs. Generate content: Draft emails and social media posts, or create images directly in the browser. Go live: Engage in two-way voice conversations with Gemini Live to brainstorm ideas or prepare for meetings. Getting started Admins: This feature is ON by default unless you’ve already disabled the Gemini app service setting or the Chrome Gemini setting . The feature can be turned on or off at the domain, OU, or group level. Refer to Turn the Gemini app on or off or our previous announcement for information on the terms of service and privacy considerations for the feature. End users: To access Gemini in Chrome, click the Gemini icon at the top of your browser. You must meet the criteria listed here . Rollout pace Rapid Release and Scheduled Release domains: Extended rollout (potentially longer than 15 days for feature visibility) started on March 10, 2026 Availability Available to all Google Workspace plans, Workspace Individual subscribers, and users with personal Google accounts on ChromeOS, MacOS and Windows devices Resources Chrome Enterprise &amp; Education Help: Gemini in Chrome Workspace Updates Blog: Use the Gemini in Chrome AI browsing assistant, now generally available Google Workspace Admin Help: Turn the Gemini app on or off Google Workspace Admin Help: Review Gemini usage in your organization Chrome Enterprise: Gemini Settings Google Workspace Admin Help: Generative AI in Google Workspace Privacy Hub",
+      "featureName": "To more countries and languages, including canada, new zealand, and india",
+      "category": "developer-tools",
+      "changeType": "pricing",
+      "importance": 5,
+      "publishedAt": "2026-03-13T17:26:00.000Z",
+      "source": "Google Workspace Updates",
+      "excerpt": "Gemini in Chrome is rolling out now to Canada, New Zealand, and India, and we’re adding support for 50+ more languages across these countries and in the United States.",
+      "focusTags": [
+        "developer-tools",
+        "search",
+        "memory"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "pricing signal",
+        "To more countries and languages, including canada, new zealand, and india",
+        "workflow depth"
+      ],
+      "score": 75,
+      "rankReason": [
+        "5/5 importance",
+        "developer-tools emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "claude-2026-03-25-interactive-apps-in-claude-for-ios-and-android",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Interactive apps in Claude for iOS and Android",
+      "body": "The Claude mobile app can now connect to fully interactive apps. Pull up live charts, sketch diagrams, and build shareable assets, all rendered visually right in your conversation. For more information, see Use interactive connectors in Claude .",
+      "featureName": "Interactive apps in Claude for iOS and Android",
+      "category": "workflow",
+      "changeType": "integration",
+      "importance": 4,
+      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "The Claude mobile app can now connect to fully interactive apps.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "integration signal",
+        "Interactive apps in Claude for iOS and Android"
+      ],
+      "score": 69,
+      "rankReason": [
+        "4/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "claude-2026-04-15-claude-opus-4-7-launch",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Claude Opus 4.7 launch",
+      "body": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 shows improvements in software engineering and complex, long-running coding tasks, as well as better vision, allowing it to see images in higher resolution. For more information, see our blog post: Introducing Claude Opus 4.7 .",
+      "featureName": "Claude Opus 4.7 launch",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-15T23:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "Our latest model, Claude Opus 4.",
+      "focusTags": [
+        "workflow",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Claude Opus 4.7 launch"
+      ],
+      "score": 67,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "cursor-2026-04-15-canvases",
+      "product": "Cursor",
+      "productSlug": "cursor",
+      "title": "Canvases",
+      "body": "Cursor can now respond by creating interactive canvases .",
+      "featureName": "Canvases",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-15T00:00:00.000Z",
+      "source": "Cursor Changelog",
+      "excerpt": "Cursor can now respond by creating interactive canvases.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Canvases"
+      ],
+      "score": 67,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "chatgpt-2026-04-10-using-projects-in-chatgpt",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "Using projects in ChatGPT",
+      "body": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "featureName": "Using projects in ChatGPT",
+      "category": "workflow",
+      "changeType": "workflow",
+      "importance": 3,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "workflow signal",
+        "Using projects in ChatGPT"
+      ],
+      "score": 66,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "claude-2026-03-23-computer-use-research-preview-in-cowork-and-claude-code-dispatch-improvements",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+      "body": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you’re away. For more information, see Let Claude use your computer in Cowork or our blog post: Put Claude to work on your computer .",
+      "featureName": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+      "category": "search",
+      "changeType": "pricing",
+      "importance": 4,
+      "publishedAt": "2026-03-23T00:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "Users on Pro and Max plans can give Claude access to computer use.",
+      "focusTags": [
+        "search",
+        "workflow",
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "search move",
+        "pricing signal",
+        "Computer use research preview in Cowork and Claude Code + Dispatch improvements"
+      ],
+      "score": 65,
+      "rankReason": [
+        "4/5 importance",
+        "search emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "claude-2026-03-17-control-cowork-from-your-phone-with-a-persistent-thread-research-preview-for-pro",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
+      "body": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, see Assign tasks to Claude from anywhere in Cowork .",
+      "featureName": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
+      "category": "search",
+      "changeType": "pricing",
+      "importance": 4,
+      "publishedAt": "2026-03-17T00:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork.",
+      "focusTags": [
+        "search",
+        "agent",
+        "memory"
+      ],
+      "signalPhrases": [
+        "search move",
+        "pricing signal",
+        "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)"
+      ],
+      "score": 65,
+      "rankReason": [
+        "4/5 importance",
+        "search emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "chatgpt-2026-04-10-creating-images-with-chatgpt",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "Creating images with ChatGPT",
+      "body": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+      "featureName": "Creating images with ChatGPT",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Creating images with ChatGPT"
+      ],
+      "score": 63,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "chatgpt-2026-04-10-analyzing-data-with-chatgpt",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "Analyzing data with ChatGPT",
+      "body": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "featureName": "Analyzing data with ChatGPT",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Analyzing data with ChatGPT"
+      ],
+      "score": 63,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "devin-2026-04-09-theme-selector-generally-available",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "Theme Selector Generally Available",
+      "body": "The theme selector is now generally available, with system theme as the default so Devin automatically matches your OS light or dark mode.",
+      "featureName": "Theme Selector Generally Available",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-09T23:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "The theme selector is now generally available, with system theme as the default so Devin automatically matches your OS light or dark mode.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Theme Selector Generally Available"
+      ],
+      "score": 62,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "claude-2026-04-08-claude-cowork-generally-available",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Claude Cowork generally available",
+      "body": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding Claude Cowork with new capabilities:",
+      "featureName": "Claude Cowork generally available",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-08T23:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "Claude Cowork generally available"
+      ],
+      "score": 61,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "figma-ai-2026-04-06-on-canvas-video-playback-in-figma-design-and-figma-draw",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "On-canvas video playback in Figma Design and Figma Draw",
+      "body": "Video playback controls are now available on videos in Figma Design and Figma Draw. Videos on the canvas have visual identifiers so you can quickly distinguish between images and videos. Plus, you can play, pause, enter full screen, and adjust playback speed and sound directly on the video file – just as you can in FigJam and Figma Slides. Rolling out this week.",
+      "featureName": "On-canvas video playback in Figma Design and Figma Draw",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-06T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "Video playback controls are now available on videos in Figma Design and Figma Draw.",
+      "focusTags": [
+        "workflow",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "On-canvas video playback in Figma Design and Figma Draw"
+      ],
+      "score": 59,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "notion-ai-2026-04-05-voice-input-on-desktop",
+      "product": "Notion AI",
+      "productSlug": "notion-ai",
+      "title": "Voice input on desktop",
+      "body": "Voice input for Notion AI is now on desktop. Whether you are dictating a longer prompt, or just prefer talking over typing, voice input makes it easier to get things done with your Agent.",
+      "featureName": "Voice input on desktop",
+      "category": "agent",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-05T23:00:00.000Z",
+      "source": "Notion Releases",
+      "excerpt": "Voice input for Notion AI is now on desktop.",
+      "focusTags": [
+        "agent"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "upgrade signal",
+        "Voice input on desktop"
+      ],
+      "score": 59,
+      "rankReason": [
+        "3/5 importance",
+        "agent emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "cursor-2026-04-02-new-cursor-interface",
+      "product": "Cursor",
+      "productSlug": "cursor",
+      "title": "New Cursor Interface",
+      "body": "Cursor 3 is now available.",
+      "featureName": "New Cursor Interface",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "source": "Cursor Changelog",
+      "excerpt": "Cursor 3 is now available.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "New Cursor Interface"
+      ],
+      "score": 56,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "notion-ai-2026-04-06-share-notion-ai-chats-as-a-link",
+      "product": "Notion AI",
+      "productSlug": "notion-ai",
+      "title": "Share Notion AI chats as a link",
+      "body": "You can now share your Notion AI chats as a read-only link. Share a helpful response, your latest prompting technique, or any conversation you’d like a teammate (or the world) to see.",
+      "featureName": "Share Notion AI chats as a link",
+      "category": "collaboration",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-06T23:00:00.000Z",
+      "source": "Notion Releases",
+      "excerpt": "You can now share your Notion AI chats as a read-only link.",
+      "focusTags": [
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "collaboration move",
+        "upgrade signal",
+        "Share Notion AI chats as a link",
+        "team-facing rollout"
+      ],
+      "score": 55,
+      "rankReason": [
+        "3/5 importance",
+        "collaboration emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "devin-2026-03-31-pr-resuming",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "PR Resuming",
+      "body": "Devin can now take over and work on existing pull requests that weren’t created in the current session, enabling continuation of work across sessions.",
+      "featureName": "PR Resuming",
+      "category": "workflow",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-03-31T23:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "Devin can now take over and work on existing pull requests that weren’t created in the current session, enabling continuation of work across sessions.",
+      "focusTags": [
+        "workflow"
+      ],
+      "signalPhrases": [
+        "workflow move",
+        "upgrade signal",
+        "PR Resuming"
+      ],
+      "score": 54,
+      "rankReason": [
+        "3/5 importance",
+        "workflow emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "devin-2026-03-27-preview-agent-toggle",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "Preview Agent Toggle",
+      "body": "A new “Preview upcoming features” toggle is available in the agent selector, enabling streaming thoughts and faster execution. Stability may be limited as these features are still in development.",
+      "featureName": "Preview Agent Toggle",
+      "category": "agent",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-03-27T00:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "A new “Preview upcoming features” toggle is available in the agent selector, enabling streaming thoughts and faster execution.",
+      "focusTags": [
+        "agent",
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "upgrade signal",
+        "Preview Agent Toggle"
+      ],
+      "score": 54,
+      "rankReason": [
+        "3/5 importance",
+        "agent emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "cursor-2026-03-25-self-hosted-cloud-agents",
+      "product": "Cursor",
+      "productSlug": "cursor",
+      "title": "Self-hosted Cloud Agents",
+      "body": "Cursor now supports self-hosted cloud agents that keep your code and tool execution entirely in your own network.",
+      "featureName": "Self-hosted Cloud Agents",
+      "category": "agent",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "source": "Cursor Changelog",
+      "excerpt": "Cursor now supports self-hosted cloud agents that keep your code and tool execution entirely in your own network.",
+      "focusTags": [
+        "agent",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "agent move",
+        "upgrade signal",
+        "Self-hosted Cloud Agents"
+      ],
+      "score": 54,
+      "rankReason": [
+        "3/5 importance",
+        "agent emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "claude-2026-04-16-claude-design-by-anthropic-labs",
+      "product": "Claude",
+      "productSlug": "claude",
+      "title": "Claude Design by Anthropic Labs",
+      "body": "With Opus 4.7, we also launched Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create visual outputs like designs, prototypes, slides, and one-pagers. For more information, see Get started with Claude Design .",
+      "featureName": "Claude Design by Anthropic Labs",
+      "category": "developer-tools",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-16T23:00:00.000Z",
+      "source": "Claude Help Center",
+      "excerpt": "With Opus 4.",
+      "focusTags": [
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "upgrade signal",
+        "Claude Design by Anthropic Labs"
+      ],
+      "score": 53,
+      "rankReason": [
+        "2/5 importance",
+        "developer-tools emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "figma-ai-2026-04-01-bring-your-own-context-to-figma-make-with-attachments",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "Bring your own context to Figma Make with Attachments",
+      "body": "Attachments let you add existing files directly to any Make prompt — no more re-prompting or copying content in manually.",
+      "featureName": "Bring your own context to Figma Make with Attachments",
+      "category": "memory",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-01T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "Attachments let you add existing files directly to any Make prompt — no more re-prompting or copying content in manually.",
+      "focusTags": [
+        "memory"
+      ],
+      "signalPhrases": [
+        "memory move",
+        "upgrade signal",
+        "Bring your own context to Figma Make with Attachments"
+      ],
+      "score": 53,
+      "rankReason": [
+        "3/5 importance",
+        "memory emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "devin-2026-04-02-enterprise-scoped-secrets",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "Enterprise-Scoped Secrets",
+      "body": "Enterprise admins can manage secrets at the enterprise level, automatically shared across all organizations. Initially only available to users of Declarative Repo Setup.",
+      "featureName": "Enterprise-Scoped Secrets",
+      "category": "collaboration",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-02T23:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "Enterprise admins can manage secrets at the enterprise level, automatically shared across all organizations.",
+      "focusTags": [
+        "collaboration",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "collaboration move",
+        "upgrade signal",
+        "Enterprise-Scoped Secrets",
+        "team-facing rollout"
+      ],
+      "score": 52,
+      "rankReason": [
+        "3/5 importance",
+        "collaboration emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "figma-ai-2026-04-01-teach-make-how-your-design-systems-works-with-make-kits",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "Teach Make how your design systems works with Make kits",
+      "body": "Make kits give design system teams a way to bring together code with design system guidelines to help Make properly use your design system inside new prototypes.",
+      "featureName": "Teach Make how your design systems works with Make kits",
+      "category": "developer-tools",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-01T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "Make kits give design system teams a way to bring together code with design system guidelines to help Make properly use your design system inside new prototypes.",
+      "focusTags": [
+        "developer-tools",
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "upgrade signal",
+        "Teach Make how your design systems works with Make kits",
+        "team-facing rollout"
+      ],
+      "score": 52,
+      "rankReason": [
+        "3/5 importance",
+        "developer-tools emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "figma-ai-2026-04-01-built-in-approvals-in-figma-buzz",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "Built-in Approvals in Figma Buzz",
+      "body": "Now teams can confidently ship brand-approved campaigns faster with built-in approvals in Buzz. Admins can enable approvals in Admin settings and choose to make design review optional or required to export assets. Once enabled, teams can request and grant approval directly in Buzz, ensuring every asset stays on brand.",
+      "featureName": "Built-in Approvals in Figma Buzz",
+      "category": "collaboration",
+      "changeType": "upgrade",
+      "importance": 3,
+      "publishedAt": "2026-04-01T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "Now teams can confidently ship brand-approved campaigns faster with built-in approvals in Buzz.",
+      "focusTags": [
+        "collaboration",
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "collaboration move",
+        "upgrade signal",
+        "Built-in Approvals in Figma Buzz",
+        "team-facing rollout"
+      ],
+      "score": 51,
+      "rankReason": [
+        "3/5 importance",
+        "collaboration emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    },
+    {
+      "id": "devin-2026-04-14-close-pr-or-convert-to-draft-in-review-ui",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "Close PR or Convert to Draft in Review UI",
+      "body": "The PR review merge bar now includes options to close a PR or convert it to a draft directly from the review page.",
+      "featureName": "Close PR or Convert to Draft in Review UI",
+      "category": "collaboration",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-14T23:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "The PR review merge bar now includes options to close a PR or convert it to a draft directly from the review page.",
+      "focusTags": [
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "collaboration move",
+        "upgrade signal",
+        "Close PR or Convert to Draft in Review UI"
+      ],
+      "score": 50,
+      "rankReason": [
+        "2/5 importance",
+        "collaboration emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "chatgpt-2026-04-10-chatgpt-for-research",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "ChatGPT for research",
+      "body": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "featureName": "ChatGPT for research",
+      "category": "search",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "focusTags": [
+        "search"
+      ],
+      "signalPhrases": [
+        "search move",
+        "upgrade signal",
+        "ChatGPT for research"
+      ],
+      "score": 50,
+      "rankReason": [
+        "2/5 importance",
+        "search emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "chatgpt-2026-04-10-healthcare",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "Healthcare",
+      "body": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "featureName": "Healthcare",
+      "category": "developer-tools",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "focusTags": [
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "upgrade signal",
+        "Healthcare"
+      ],
+      "score": 48,
+      "rankReason": [
+        "2/5 importance",
+        "developer-tools emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "chatgpt-2026-04-10-ai-fundamentals",
+      "product": "ChatGPT",
+      "productSlug": "chatgpt",
+      "title": "AI fundamentals",
+      "body": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "featureName": "AI fundamentals",
+      "category": "developer-tools",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI News RSS",
+      "excerpt": "Learn what AI is, how it works, and how tools like ChatGPT use large language models.",
+      "focusTags": [
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "upgrade signal",
+        "AI fundamentals"
+      ],
+      "score": 48,
+      "rankReason": [
+        "2/5 importance",
+        "developer-tools emphasis",
+        "fresh signal"
+      ],
+      "recencyBucket": "this-week"
+    },
+    {
+      "id": "devin-2026-04-07-auto-merge-from-devin-review",
+      "product": "Devin",
+      "productSlug": "devin",
+      "title": "Auto-merge from Devin Review",
+      "body": "You can now enable or disable GitHub auto-merge directly from the Devin Review merge button, so approved pull requests land as soon as checks pass without an extra trip to GitHub.",
+      "featureName": "Auto-merge from Devin Review",
+      "category": "collaboration",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-04-07T23:00:00.000Z",
+      "source": "Devin Docs",
+      "excerpt": "You can now enable or disable GitHub auto-merge directly from the Devin Review merge button, so approved pull requests land as soon as checks pass without an extra trip to GitHub.",
+      "focusTags": [
+        "collaboration"
+      ],
+      "signalPhrases": [
+        "collaboration move",
+        "upgrade signal",
+        "Auto-merge from Devin Review"
+      ],
+      "score": 44,
+      "rankReason": [
+        "2/5 importance",
+        "collaboration emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "last-two-weeks"
+    },
+    {
+      "id": "figma-ai-2026-03-29-ai-image-tools-now-in-figjam-slides-buzz",
+      "product": "Figma AI",
+      "productSlug": "figma-ai",
+      "title": "AI Image Tools now in FigJam, Slides, & Buzz",
+      "body": "AI image tools like Expand, Erase, and Isolate are now in FigJam, Slides, and Buzz (beta), with Vectorize available in Slides and Buzz, so you can refine visuals from brainstorm to presentation to promotion without breaking flow.",
+      "featureName": "AI Image Tools now in FigJam, Slides, & Buzz",
+      "category": "developer-tools",
+      "changeType": "upgrade",
+      "importance": 2,
+      "publishedAt": "2026-03-29T23:00:00.000Z",
+      "source": "Figma Release Notes",
+      "excerpt": "AI image tools like Expand, Erase, and Isolate are now in FigJam, Slides, and Buzz (beta), with Vectorize available in Slides and Buzz, so you can refine visuals from brainstorm to presentation to promotion without breaking flow.",
+      "focusTags": [
+        "developer-tools"
+      ],
+      "signalPhrases": [
+        "developer-tools move",
+        "upgrade signal",
+        "AI Image Tools now in FigJam, Slides, & Buzz"
+      ],
+      "score": 38,
+      "rankReason": [
+        "2/5 importance",
+        "developer-tools emphasis",
+        "still within active window"
+      ],
+      "recencyBucket": "earlier"
+    }
+  ],
+  "weeklyInsight": {
+    "headline": "Workflow depth and developer tools continuity shaped this week's AI product movement",
+    "summary": "Across 14 ranked product moves, ChatGPT, Gemini, and Cursor set the pace. The market leaned toward deeper workflow capability, stronger developer tools retention, and more operational surfaces for strategy, research, and delivery teams.",
+    "signals": [
+      "Gemini pushed prepare for the neet ug with practice tests in gemini, reinforcing its search position this week.",
+      "Notion AI pushed schedule meetings with notion agent, reinforcing its agent position this week.",
+      "Gemini pushed gemini in google classroom is now available in all classroom-supported languages, reinforcing its workflow position this week.",
+      "Cursor pushed tiled layout and upgraded voice input in the agents window, reinforcing its agent position this week."
+    ],
+    "topProducts": [
+      "ChatGPT",
+      "Gemini",
+      "Cursor"
+    ]
+  },
+  "runtime": {
+    "generatedAt": "2026-04-17T15:04:24.237Z",
+    "referenceDate": "2026-04-17T15:04:24.237Z",
+    "sourceAttemptCount": 8,
+    "sourceSuccessCount": 8,
+    "activeSourceLabels": [
+      "OpenAI News RSS",
+      "Claude Help Center",
+      "Perplexity API Docs",
+      "Notion Releases",
+      "Cursor Changelog",
+      "Devin Docs",
+      "Google Workspace Updates",
+      "Figma Release Notes"
+    ],
+    "sourceFailureDetails": [],
+    "sourceStatuses": [
+      {
+        "product": "ChatGPT",
+        "productSlug": "chatgpt",
+        "source": "OpenAI News RSS",
+        "url": "https://openai.com/news/rss.xml",
+        "status": "live",
+        "updateCount": 6,
+        "latestPublishedAt": "2026-04-10T00:00:00.000Z"
+      },
+      {
+        "product": "Claude",
+        "productSlug": "claude",
+        "source": "Claude Help Center",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "status": "live",
+        "updateCount": 6,
+        "latestPublishedAt": "2026-04-16T23:00:00.000Z"
+      },
+      {
+        "product": "Perplexity",
+        "productSlug": "perplexity",
+        "source": "Perplexity API Docs",
+        "url": "https://docs.perplexity.ai/docs/resources/changelog",
+        "status": "live",
+        "updateCount": 1,
+        "latestPublishedAt": "2026-03-31T23:00:00.000Z"
+      },
+      {
+        "product": "Notion AI",
+        "productSlug": "notion-ai",
+        "source": "Notion Releases",
+        "url": "https://www.notion.com/releases",
+        "status": "live",
+        "updateCount": 3,
+        "latestPublishedAt": "2026-04-14T23:00:00.000Z"
+      },
+      {
+        "product": "Cursor",
+        "productSlug": "cursor",
+        "source": "Cursor Changelog",
+        "url": "https://cursor.com/changelog",
+        "status": "live",
+        "updateCount": 5,
+        "latestPublishedAt": "2026-04-15T00:00:00.000Z"
+      },
+      {
+        "product": "Devin",
+        "productSlug": "devin",
+        "source": "Devin Docs",
+        "url": "https://docs.devin.ai/release-notes",
+        "status": "live",
+        "updateCount": 6,
+        "latestPublishedAt": "2026-04-14T23:00:00.000Z"
+      },
+      {
+        "product": "Gemini",
+        "productSlug": "gemini",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/posts/default/-/Gemini?alt=rss",
+        "status": "live",
+        "updateCount": 4,
+        "latestPublishedAt": "2026-04-14T16:23:00.000Z"
+      },
+      {
+        "product": "Figma AI",
+        "productSlug": "figma-ai",
+        "source": "Figma Release Notes",
+        "url": "https://www.figma.com/release-notes/",
+        "status": "live",
+        "updateCount": 6,
+        "latestPublishedAt": "2026-04-08T23:00:00.000Z"
+      }
+    ]
+  },
+  "diff": {
+    "comparedToRunId": "run-2026-04-09T18-23-47-452Z",
+    "comparedToCreatedAt": "2026-04-09T18:23:47.452Z",
+    "newUpdateIds": [
+      "gemini-2026-04-13-prepare-for-the-neet-ug-with-practice-tests-in-gemini",
+      "notion-ai-2026-04-14-schedule-meetings-with-notion-agent",
+      "gemini-2026-04-14-gemini-in-google-classroom-is-now-available-in-all-classroom-supported-languages",
+      "cursor-2026-04-13-tiled-layout-and-upgraded-voice-input-in-the-agents-window",
+      "perplexity-2026-03-31-new-integration-n8n",
+      "claude-2026-04-15-claude-opus-4-7-launch",
+      "cursor-2026-04-15-canvases",
+      "chatgpt-2026-04-10-using-projects-in-chatgpt",
+      "chatgpt-2026-04-10-creating-images-with-chatgpt",
+      "chatgpt-2026-04-10-analyzing-data-with-chatgpt",
+      "devin-2026-04-09-theme-selector-generally-available",
+      "claude-2026-04-16-claude-design-by-anthropic-labs",
+      "devin-2026-04-14-close-pr-or-convert-to-draft-in-review-ui",
+      "chatgpt-2026-04-10-chatgpt-for-research",
+      "chatgpt-2026-04-10-healthcare",
+      "chatgpt-2026-04-10-ai-fundamentals"
+    ],
+    "removedUpdateIds": [
+      "chatgpt-2026-04-08-the-next-phase-of-enterprise-ai",
+      "chatgpt-2026-03-24-powering-product-discovery-in-chatgpt",
+      "chatgpt-2026-04-02-codex-now-offers-more-flexible-pricing-for-teams",
+      "notion-ai-2026-03-20-custom-skills-for-notion-ai",
+      "cursor-2026-03-19-composer-2",
+      "notion-ai-2026-03-18-custom-instructions-for-ai-meeting-notes",
+      "gemini-2026-02-26-gemini-conversation-history-is-coming-to-the-side-panel-in-google-workspace",
+      "chatgpt-2026-03-31-accelerating-the-next-phase-of-ai",
+      "gemini-2026-02-24-get-quantitative-insights-from-text-responses-with-gemini-in-google-forms",
+      "chatgpt-2026-03-27-stadler-reshapes-knowledge-work-at-a-230-year-old-company",
+      "notion-ai-2026-03-26-notion-3-4-part-1",
+      "devin-2026-03-24-light-mode-beta",
+      "devin-2026-03-19-devin-manages-devins",
+      "claude-2026-03-12-claude-creates-interactive-charts-diagrams-and-visualizations",
+      "claude-2026-03-11-work-across-excel-and-powerpoint",
+      "cursor-2026-03-11-new-plugins-on-the-cursor-marketplace",
+      "chatgpt-2026-03-17-equipping-workers-with-insights-about-compensation",
+      "notion-ai-2026-03-19-notion-academy-certifications-in-6-new-languages"
+    ],
+    "newProducts": [
+      "Gemini",
+      "Notion AI",
+      "Cursor",
+      "Perplexity",
+      "Claude",
+      "ChatGPT",
+      "Devin"
+    ],
+    "unchangedSources": [
+      "Figma Release Notes"
+    ],
+    "changedSources": [
+      "OpenAI News RSS",
+      "Claude Help Center",
+      "Perplexity API Docs",
+      "Notion Releases",
+      "Cursor Changelog",
+      "Devin Docs",
+      "Google Workspace Updates"
+    ],
+    "hasNewSignals": true,
+    "summary": "16 new ranked signals surfaced since the previous run, led by Gemini, Notion AI, Cursor, Perplexity, Claude, ChatGPT, and Devin."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "runs": [
+    {
+      "runId": "run-2026-04-17T15-05-00-801Z",
+      "createdAt": "2026-04-17T15:05:00.801Z",
+      "updatedAt": "2026-04-17T15:05:04.472Z",
+      "status": "published",
+      "headline": "Workflow depth and developer tools continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 8,
+      "topProducts": [
+        "ChatGPT",
+        "Gemini",
+        "Cursor"
+      ],
+      "updateCount": 37,
+      "diffSummary": "No new official updates surfaced since the previous run. 8 sources were unchanged.",
+      "hasNewSignals": false,
+      "newSignalCount": 0
+    },
+    {
+      "runId": "run-2026-04-17T15-04-23-566Z",
+      "createdAt": "2026-04-17T15:04:23.566Z",
+      "updatedAt": "2026-04-17T15:04:30.976Z",
+      "status": "published",
+      "headline": "Workflow depth and developer tools continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 8,
+      "topProducts": [
+        "ChatGPT",
+        "Gemini",
+        "Cursor"
+      ],
+      "updateCount": 37,
+      "diffSummary": "16 new ranked signals surfaced since the previous run, led by Gemini, Notion AI, Cursor, Perplexity, Claude, ChatGPT, and Devin.",
+      "hasNewSignals": true,
+      "newSignalCount": 16
+    },
+    {
+      "runId": "run-2026-04-09T18-23-47-452Z",
+      "createdAt": "2026-04-09T18:23:47.452Z",
+      "updatedAt": "2026-04-09T18:24:00.616Z",
+      "status": "published",
+      "headline": "Workflow depth and collaboration continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 7,
+      "topProducts": [
+        "ChatGPT",
+        "Figma AI",
+        "Cursor"
+      ],
+      "updateCount": 39,
+      "diffSummary": "No new official updates surfaced since the previous run. 8 sources were unchanged.",
+      "hasNewSignals": false,
+      "newSignalCount": 0
+    },
+    {
+      "runId": "run-2026-04-09T18-18-35-425Z",
+      "createdAt": "2026-04-09T18:18:35.425Z",
+      "updatedAt": "2026-04-09T18:18:45.830Z",
+      "status": "rejected",
+      "headline": "Workflow depth and collaboration continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 7,
+      "topProducts": [
+        "ChatGPT",
+        "Figma AI",
+        "Cursor"
+      ],
+      "updateCount": 39,
+      "diffSummary": "No new official updates surfaced since the previous run. 8 sources were unchanged.",
+      "hasNewSignals": false,
+      "newSignalCount": 0
+    },
+    {
+      "runId": "run-2026-04-09T18-17-22-050Z",
+      "createdAt": "2026-04-09T18:17:22.050Z",
+      "updatedAt": "2026-04-09T18:17:43.990Z",
+      "status": "published",
+      "headline": "Workflow depth and collaboration continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 7,
+      "topProducts": [
+        "ChatGPT",
+        "Figma AI",
+        "Cursor"
+      ],
+      "updateCount": 39,
+      "diffSummary": "No new official updates surfaced since the previous run. 8 sources were unchanged.",
+      "hasNewSignals": false,
+      "newSignalCount": 0
+    },
+    {
+      "runId": "run-2026-04-09T18-10-33-930Z",
+      "createdAt": "2026-04-09T18:10:33.930Z",
+      "updatedAt": "2026-04-09T18:10:44.434Z",
+      "status": "published",
+      "headline": "Workflow depth and collaboration continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 7,
+      "topProducts": [
+        "ChatGPT",
+        "Figma AI",
+        "Cursor"
+      ],
+      "updateCount": 39
+    },
+    {
+      "runId": "run-2026-04-09T18-07-47-333Z",
+      "createdAt": "2026-04-09T18:07:47.333Z",
+      "updatedAt": "2026-04-09T18:08:50.714Z",
+      "status": "published",
+      "headline": "Workflow depth and collaboration continuity shaped this week's AI product movement",
+      "sourceAttemptCount": 8,
+      "sourceSuccessCount": 7,
+      "topProducts": [
+        "ChatGPT",
+        "Figma AI",
+        "Cursor"
+      ],
+      "updateCount": 39
+    }
+  ],
+  "latestPublished": {
+    "runId": "run-2026-04-17T15-05-00-801Z",
+    "publishedAt": "2026-04-17T15:05:04.472Z",
+    "headline": "Workflow depth and developer tools continuity shaped this week's AI product movement"
+  }
+}

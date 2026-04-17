@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OpenAI News</title>
+    <item>
+      <title><![CDATA[Introducing ChatGPT record mode]]></title>
+      <description><![CDATA[ChatGPT can now capture meetings, extract action items, and build project-ready notes for teams.]]></description>
+      <link>https://openai.com/index/chatgpt-record-mode</link>
+      <pubDate>Thu, 03 Apr 2026 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI platform roadmap update]]></title>
+      <description><![CDATA[A company update about API and infrastructure improvements.]]></description>
+      <link>https://openai.com/index/platform-roadmap</link>
+      <pubDate>Tue, 31 Mar 2026 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

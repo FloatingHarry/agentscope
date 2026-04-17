@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Google Workspace Updates</title>
+    <item>
+      <title><![CDATA[Deep Research with Gemini is now available for Workspace users]]></title>
+      <description><![CDATA[Users can use Gemini to run longer research workflows and export structured findings into Docs.]]></description>
+      <link>https://workspaceupdates.googleblog.com/2026/04/deep-research-gemini.html</link>
+      <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[New Google Meet admin controls]]></title>
+      <description><![CDATA[This post is not about Gemini.]]></description>
+      <link>https://workspaceupdates.googleblog.com/2026/04/meet-admin-controls.html</link>
+      <pubDate>Fri, 27 Mar 2026 09:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

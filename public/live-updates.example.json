@@ -1,0 +1,68 @@
+{
+  "updates": [
+    {
+      "id": "chatgpt-live-2026-04-08-team-memory",
+      "product": "ChatGPT",
+      "title": "ChatGPT expands team memory controls for shared workspaces",
+      "body": "Team admins can now define which memory sources agents may reuse across shared workspaces, making long-running project context more predictable for analysts and product leads.",
+      "publishedAt": "2026-04-08T10:30:00.000Z",
+      "source": "OpenAI release notes"
+    },
+    {
+      "id": "claude-live-2026-04-02-agent-checklists",
+      "product": "Claude",
+      "title": "Claude adds long-running agent checklists for team reviews",
+      "body": "Agent tasks can pause at required checkpoints, letting research or product teams review steps before execution continues.",
+      "publishedAt": "2026-04-02T11:00:00.000Z",
+      "source": "Anthropic changelog"
+    },
+    {
+      "id": "perplexity-live-2026-04-06-collections",
+      "product": "Perplexity",
+      "title": "Perplexity launches collections for recurring market scans",
+      "body": "Collections group search threads, saved sources, and weekly outputs into repeatable intelligence workflows for research teams.",
+      "publishedAt": "2026-04-06T09:45:00.000Z",
+      "source": "Perplexity updates"
+    },
+    {
+      "id": "notion-live-2026-04-01-project-briefs",
+      "product": "Notion AI",
+      "title": "Notion AI adds project brief generation inside docs",
+      "body": "Project briefs can now summarize goals, risks, owners, and follow-up tasks directly from workspace context.",
+      "publishedAt": "2026-04-01T14:20:00.000Z",
+      "source": "Notion changelog"
+    },
+    {
+      "id": "cursor-live-2026-04-07-background-agents",
+      "product": "Cursor",
+      "title": "Cursor adds background agents for repo maintenance",
+      "body": "Background agents can handle dependency cleanups, repeated lint fixes, and lightweight repository upkeep while developers keep coding.",
+      "publishedAt": "2026-04-07T08:10:00.000Z",
+      "source": "Cursor release notes"
+    },
+    {
+      "id": "devin-live-2026-04-05-reviewer-inbox",
+      "product": "Devin",
+      "title": "Devin adds reviewer inboxes for agent handoffs",
+      "body": "Agent output can now route into a reviewer inbox where humans inspect work, comment, and relaunch the workflow if needed.",
+      "publishedAt": "2026-04-05T12:15:00.000Z",
+      "source": "Cognition updates"
+    },
+    {
+      "id": "gemini-live-2026-04-03-agent-mode",
+      "product": "Gemini",
+      "title": "Gemini adds an agent mode for cross-app actions",
+      "body": "Agent mode coordinates Gmail, Docs, and Calendar steps so users can trigger multi-app workflows from one prompt.",
+      "publishedAt": "2026-04-03T15:00:00.000Z",
+      "source": "Google Workspace updates"
+    },
+    {
+      "id": "figma-live-2026-04-04-critique-agents",
+      "product": "Figma AI",
+      "title": "Figma AI launches design critique agents for teams",
+      "body": "Critique agents review layouts, identify issues, and route findings back into collaborative design workflows.",
+      "publishedAt": "2026-04-04T07:30:00.000Z",
+      "source": "Figma updates"
+    }
+  ]
+}
