@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { TRACKED_PRODUCTS } from "@/lib/intelligence/constants";
+import { ensureRunEvidence } from "@/lib/intelligence/run-evidence";
 import { createPendingRunDiff } from "@/lib/intelligence/run-diff";
 import type {
   PublishedPointer,
@@ -59,12 +60,13 @@ async function readJson<T>(filePath: string): Promise<T | null> {
 }
 
 function hydrateResearchRun(run: ResearchRun): ResearchRun {
-  return {
+  return ensureRunEvidence({
     ...run,
+    evidence: run.evidence ?? [],
     diff:
       run.diff ??
       createPendingRunDiff("This run was created before diff tracking was added."),
-  };
+  });
 }
 
 function sortRunSummaries(runs: ResearchRunSummary[]) {
@@ -185,6 +187,7 @@ export async function createResearchRun() {
     status: "running",
     products: TRACKED_PRODUCTS,
     updates: [],
+    evidence: [],
     weeklyInsight: null,
     runtime: {
       generatedAt: now,

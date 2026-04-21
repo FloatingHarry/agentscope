@@ -1,5 +1,11 @@
 import type { IntelligenceSourceStatus } from "@/lib/intelligence/runtime";
-import type { RankedUpdate, TrackedProduct, WeeklyInsight } from "@/lib/intelligence/types";
+import type {
+  CategoryKey,
+  ChangeType,
+  RankedUpdate,
+  TrackedProduct,
+  WeeklyInsight,
+} from "@/lib/intelligence/types";
 
 export type RunStatus =
   | "running"
@@ -30,6 +36,22 @@ export interface ResearchRunDiff {
   summary: string;
 }
 
+export interface RunEvidence {
+  evidenceId: string;
+  runId: string;
+  product: string;
+  productSlug: string;
+  source: string;
+  sourceUrl: string;
+  publishedAt: string;
+  title: string;
+  snippet: string;
+  retrievalText: string;
+  category: CategoryKey;
+  changeType: ChangeType;
+  focusTags: string[];
+}
+
 export interface ResearchRun {
   runId: string;
   createdAt: string;
@@ -38,6 +60,7 @@ export interface ResearchRun {
   failureReason?: string;
   products: TrackedProduct[];
   updates: RankedUpdate[];
+  evidence: RunEvidence[];
   weeklyInsight: WeeklyInsight | null;
   runtime: ResearchRunRuntimeSnapshot;
   diff: ResearchRunDiff;
@@ -67,4 +90,33 @@ export interface PublishedPointer {
 export interface ResearchRunIndex {
   runs: ResearchRunSummary[];
   latestPublished?: PublishedPointer;
+}
+
+export interface RunQuestionRequest {
+  question: string;
+}
+
+export interface RunQuestionCitation {
+  evidenceId: string;
+  retrievalRank: number;
+  retrievalScore: number;
+  source: string;
+  sourceUrl: string;
+  product: string;
+  title: string;
+  snippet: string;
+  publishedAt: string;
+  category: CategoryKey;
+  changeType: ChangeType;
+  focusTags: string[];
+  matchedTerms: string[];
+  retrievalReasons: string[];
+}
+
+export interface RunQuestionResponse {
+  answer: string | null;
+  citations: RunQuestionCitation[];
+  retrievedCount: number;
+  generationMode: "llm" | "retrieval-only";
+  warning?: string;
 }

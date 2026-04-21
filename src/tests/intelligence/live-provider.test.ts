@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import {
   CuratedJsonIntelligenceProvider,
@@ -17,8 +17,18 @@ import {
 } from "@/lib/intelligence/live-provider";
 
 const fixturesDir = path.resolve(
-  "D:/Desktop/AgentScope/ai-product-intelligence-agent/src/tests/intelligence/fixtures",
+  process.cwd(),
+  "src/tests/intelligence/fixtures",
 );
+
+beforeEach(() => {
+  vi.useFakeTimers();
+  vi.setSystemTime(new Date("2026-04-09T12:00:00.000Z"));
+});
+
+afterEach(() => {
+  vi.useRealTimers();
+});
 
 afterEach(() => {
   vi.restoreAllMocks();

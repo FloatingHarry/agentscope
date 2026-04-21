@@ -1,5 +1,6 @@
 import { TRACKED_PRODUCTS } from "@/lib/intelligence/constants";
 import { OfficialSourceIntelligenceProvider } from "@/lib/intelligence/live-provider";
+import { buildRunEvidence } from "@/lib/intelligence/run-evidence";
 import { buildResearchRunDiff, createPendingRunDiff } from "@/lib/intelligence/run-diff";
 import {
   createResearchRun,
@@ -29,6 +30,11 @@ export async function executeResearchRun(options?: { fetchImpl?: typeof fetch })
     const updates = rankUpdates(normalizedUpdates, referenceDate);
     const weeklyInsight = generateWeeklyInsight(updates, products, referenceDate);
     const summary = provider.getSummary();
+    const evidence = buildRunEvidence(
+      initialRun.runId,
+      updates,
+      summary.sourceStatuses,
+    );
 
     const completedRun: ResearchRun = {
       ...initialRun,
@@ -36,6 +42,7 @@ export async function executeResearchRun(options?: { fetchImpl?: typeof fetch })
       status: "review_required",
       products,
       updates,
+      evidence,
       weeklyInsight,
       runtime: {
         generatedAt: referenceDate.toISOString(),
@@ -76,6 +83,7 @@ export async function executeResearchRun(options?: { fetchImpl?: typeof fetch })
       failureReason: toErrorMessage(error),
       products: TRACKED_PRODUCTS,
       updates: [],
+      evidence: [],
       weeklyInsight: null,
       runtime: {
         generatedAt: new Date().toISOString(),

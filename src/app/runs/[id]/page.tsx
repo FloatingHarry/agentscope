@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { RunQuestionAssistant } from "@/components/runs/run-question-assistant";
 import { RunReviewActions } from "@/components/runs/run-review-actions";
 import { RunStatusBadge } from "@/components/runs/run-status-badge";
 import { Badge } from "@/components/shared/badge";
@@ -50,6 +51,12 @@ export default async function RunDetailPage({
   const sourceStatuses = run.runtime.sourceStatuses ?? [];
   const liveCount = sourceStatuses.filter((status) => status.status === "live").length;
   const failedCount = sourceStatuses.length - liveCount;
+  const llmConfigured = Boolean(process.env.OPENAI_API_KEY?.trim());
+  const suggestedQuestions = [
+    "Which product showed the strongest workflow movement in this run?",
+    `What is ${(run.weeklyInsight?.topProducts[0] ?? run.products[0]?.name ?? "ChatGPT")} focusing on most recently in this run?`,
+    "Which official sources best support the current weekly brief?",
+  ];
 
   return (
     <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 pb-16 pt-8">
@@ -224,6 +231,22 @@ export default async function RunDetailPage({
           <SourceStatusGrid sourceStatuses={sourceStatuses} />
         </Surface>
       ) : null}
+
+      <Surface className="p-6">
+        <SectionHeading
+          eyebrow="Run review assistant"
+          title="Ask this run"
+          description="Query only the evidence captured during this official-source run. The assistant answers from run-scoped citations instead of the wider web."
+        />
+        <div className="mt-6">
+          <RunQuestionAssistant
+            runId={run.runId}
+            evidenceCount={run.evidence.length}
+            llmConfigured={llmConfigured}
+            suggestedQuestions={suggestedQuestions}
+          />
+        </div>
+      </Surface>
 
       <section className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
         <Surface className="p-6">

@@ -6,6 +6,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { getDashboardViewData } from "@/lib/intelligence/builders";
 import { TRACKED_PRODUCTS } from "@/lib/intelligence/constants";
+import { buildRunEvidence } from "@/lib/intelligence/run-evidence";
 import { executeResearchRun } from "@/lib/intelligence/research-run-agent";
 import {
   createResearchRun,
@@ -60,6 +61,7 @@ describe("research runs", () => {
       status: "review_required",
       products: TRACKED_PRODUCTS,
       updates: fixture.updates,
+      evidence: buildRunEvidence(baseRun.runId, fixture.updates),
       weeklyInsight: fixture.weeklyInsight,
       runtime: {
         generatedAt: fixture.referenceDate.toISOString(),
@@ -103,6 +105,7 @@ describe("research runs", () => {
           status: "review_required",
           products: TRACKED_PRODUCTS,
           updates: fixture.updates,
+          evidence: buildRunEvidence(firstRun.runId, fixture.updates),
           weeklyInsight: fixture.weeklyInsight,
           runtime: {
             generatedAt: fixture.referenceDate.toISOString(),
@@ -124,6 +127,7 @@ describe("research runs", () => {
           status: "review_required",
           products: TRACKED_PRODUCTS,
           updates: fixture.updates.slice(0, 4),
+          evidence: buildRunEvidence(secondRun.runId, fixture.updates.slice(0, 4)),
           weeklyInsight: fixture.weeklyInsight,
           runtime: {
             generatedAt: fixture.referenceDate.toISOString(),
@@ -161,6 +165,7 @@ describe("research runs", () => {
       status: "review_required",
       products: TRACKED_PRODUCTS,
       updates: fixture.updates,
+      evidence: buildRunEvidence(baseRun.runId, fixture.updates),
       weeklyInsight: fixture.weeklyInsight,
       runtime: {
         generatedAt: fixture.referenceDate.toISOString(),
@@ -262,8 +267,10 @@ describe("research runs", () => {
     expect(run.runtime.sourceAttemptCount).toBe(8);
     expect(run.runtime.sourceSuccessCount).toBe(1);
     expect(run.updates.length).toBeGreaterThan(0);
+    expect(run.evidence.length).toBe(run.updates.length);
     expect(run.diff.summary).toContain("first recorded research run");
     expect(storedRun?.status).toBe("review_required");
+    expect(storedRun?.evidence.length).toBe(run.evidence.length);
     expect((await getLatestPublishedRun())).toBeNull();
   });
 });
